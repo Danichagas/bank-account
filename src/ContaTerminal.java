@@ -14,5 +14,22 @@ public class ContaTerminal {
 
         //TODO: entrada de dados
         System.out.println("Obrigado por escolher a gente para criarmos uma conta para você!");
+        System.out.println();
+
+        System.out.print("Por favor, digite o número da Agência : ");
+        number = sc.nextInt();
+
+        System.out.print("Digite o nome da Agência : ");
+        agency = sc.next();
+
+        System.out.print("Por favor, digite seu Nome : ");
+        customerName = sc.next();
+
+        System.out.print("Digite seu saldo inicial : ");
+        balance = sc.nextDouble();
+
+        System.out.println("Olá " + customerName
+                + ", obrigado por criar uma conta em nosso banco, sua agência é "
+                + agency + ", conta " + number + ", e seu saldo de " + balance + " já está disponível para saque!");
     }
 }
