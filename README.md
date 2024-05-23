@@ -2,7 +2,7 @@
 . Este é um projeto bem simples que desenvolvi a partir dos meus conhecimentos obtidos atráves do ensino da DIO 🎉
 
 ## Este projeto conta com :
-#### Um sistema de entrada de Dados onde o usario digita seus dados :
+##### Um sistema de entrada de Dados onde o usario digita seus dados :
 ###### Por exemplo :
 
 | Atributo  | Tipo     | Exemplo   
@@ -11,6 +11,10 @@
 | Agencia   | Texto    | 067-8
 | Nome Cliente | Texto    | MARIO ANDRADE
 | Saldo | Decimal |237.48
+
+##### Em seguida, é feita a leitura desses dados, e mostra os dados do cliente pra ele mesmo 🔐
+
+<br>
 
 ## Enjoy this project!
 
